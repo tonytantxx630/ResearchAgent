@@ -10,19 +10,15 @@ cookiecutter 1.7.2 requires MarkupSafe<2.0.0, but you have markupsafe 3.0.2 whic
 astroid 2.6.6 requires wrapt<1.13,>=1.11, but you have wrapt 1.17.0 which is incompatible.
 
 
-to run:
-python -m venv venv_agent_lab
-source venv_agent_lab/bin/activate
   
   
-DS:
-sk-5ab7dc149b9e442fbe1f558e1633d2f3
-
 
 Q:
 -Explain what is the purpose of each file in this repo. How they related to each other. What do I do if I need to run this agent?
 -Do I need an account with Arxiv.org for this system to work? NO. Arxiv API free.
 
 Who else can access Flask web server for AgentRxiv apart from me?
-If I am OK to upload, read and write txt instead of pdf, will it make the system simplier? Simpler is defined as requiring fewer files + calling fewer functions without causing failures / bugs. 
+-Currently, No one else but me.
+
+I would like to upload to, read from and write to Flask web application AgentRXiv in txt files instead of pdf. How can I modify this repo to achieve that. 
 

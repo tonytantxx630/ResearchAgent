@@ -1,0 +1,12 @@
+to run:
+source venv_agent_lab/bin/activate
+
+  python ai_lab_repo.py --yaml-location "experiment_configs/MATH_agentlab.yaml"
+
+# with agentRXiv
+  python ai_lab_repo.py --yaml-location "experiment_configs/MATH_agentrxiv.yaml"
+
+
+
+
+  
