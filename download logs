@@ -1,0 +1,28 @@
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+spyder 5.1.5 requires pyqt5<5.13, which is not installed.
+spyder 5.1.5 requires pyqtwebengine<5.13, which is not installed.
+daal4py 2021.3.0 requires daal==2021.2.3, which is not installed.
+conda-repo-cli 1.0.4 requires pathlib, which is not installed.
+anaconda-project 0.10.1 requires ruamel-yaml, which is not installed.
+numba 0.54.1 requires numpy<1.21,>=1.17, but you have numpy 2.0.2 which is incompatible.
+cookiecutter 1.7.2 requires Jinja2<3.0.0, but you have jinja2 3.1.4 which is incompatible.
+cookiecutter 1.7.2 requires MarkupSafe<2.0.0, but you have markupsafe 3.0.2 which is incompatible.
+astroid 2.6.6 requires wrapt<1.13,>=1.11, but you have wrapt 1.17.0 which is incompatible.
+
+
+to run:
+python -m venv venv_agent_lab
+source venv_agent_lab/bin/activate
+  
+  
+DS:
+sk-5ab7dc149b9e442fbe1f558e1633d2f3
+
+
+Q:
+-Explain what is the purpose of each file in this repo. How they related to each other. What do I do if I need to run this agent?
+-Do I need an account with Arxiv.org for this system to work? NO. Arxiv API free.
+
+Who else can access Flask web server for AgentRxiv apart from me?
+If I am OK to upload, read and write txt instead of pdf, will it make the system simplier? Simpler is defined as requiring fewer files + calling fewer functions without causing failures / bugs. 
+
